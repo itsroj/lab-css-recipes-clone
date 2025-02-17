@@ -73,5 +73,11 @@ h2 {
 }
 
 #directions {
+  padding-left: 20px;
   line-height: 1.5;
+  list-style-type: decimal;
+}
+
+#directions ::marker {
+  content: counter(list-item) ") ";
 }
